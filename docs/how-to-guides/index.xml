@@ -25,7 +25,7 @@ Consult the &lt;a href="https://documentation.divio.com/">The Documentation Syst
 &lt;h2 id="updating-the-site">Updating the site&lt;/h2>
 &lt;p>Here&amp;rsquo;s a quick guide to updating the site:&lt;/p>
 &lt;ol>
-&lt;li>Fork the &lt;a href="https://github.com/tetrabiodistributed">Project Tetra repo&lt;/a> on GitHub.&lt;/li>
+&lt;li>Fork the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io">Project Tetra repo&lt;/a> on GitHub.&lt;/li>
 &lt;li>Make your changes and create a pull request (PR).&lt;/li>
 &lt;li>If you&amp;rsquo;re not yet ready for a review, add &amp;ldquo;WIP&amp;rdquo; to the PR name to indicate
 it&amp;rsquo;s a work in progress.&lt;/li>
@@ -50,11 +50,11 @@ If you install from the &lt;a href="https://github.com/gohugoio/hugo/releases">r
 make sure you download the &lt;code>_extended&lt;/code> version which supports SCSS.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Fork the &lt;a href="https://github.com/tetrabiodistributed">Project Tetra repo&lt;/a> into your own project, then create a local copy using &lt;code>git clone&lt;/code>. Don’t forget to use &lt;code>--recurse-submodules&lt;/code> or you won’t pull down some of the code you need to generate a working site.&lt;/p>
-&lt;pre>&lt;code>git clone --recurse-submodules --depth 1 https://github.com/&amp;lt;your_github_username&amp;gt;/project-tetra.git
+&lt;p>Fork the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io">Project Tetra repo&lt;/a> into your own project, then create a local copy using &lt;code>git clone&lt;/code>. Don’t forget to use &lt;code>--recurse-submodules&lt;/code> or you won’t pull down some of the code you need to generate a working site.&lt;/p>
+&lt;pre>&lt;code>git clone --recurse-submodules --depth 1 https://github.com/&amp;lt;your_github_username&amp;gt;/tetrabiodistributed.github.io.git
 &lt;/code>&lt;/pre>&lt;/li>
 &lt;li>
-&lt;p>Run &lt;code>hugo server&lt;/code> in the site root directory. By default your site will be available at &lt;code>http://localhost:1313/project-tetra&lt;/code>. Now that you&amp;rsquo;re serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.&lt;/p>
+&lt;p>Run &lt;code>hugo server&lt;/code> in the site root directory. By default your site will be available at &lt;code>http://localhost:1313&lt;/code>. Now that you&amp;rsquo;re serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.&lt;/p>
 &lt;pre>&lt;code>hugo server
 &lt;/code>&lt;/pre>&lt;/li>
 &lt;li>
@@ -62,7 +62,7 @@ make sure you download the &lt;code>_extended&lt;/code> version which supports S
 &lt;/li>
 &lt;/ol>
 &lt;h2 id="creating-an-issue">Creating an issue&lt;/h2>
-&lt;p>If you&amp;rsquo;ve found a problem in the docs, but you&amp;rsquo;re not sure how to fix it yourself, please create an issue in the &lt;a href="https://github.com/tetrabiodistributed/issues">Project Tetra repo&lt;/a>. You can also create an issue about a specific page by clicking the &lt;strong>Create Issue&lt;/strong> button in the top right hand corner of the page.&lt;/p>
+&lt;p>If you&amp;rsquo;ve found a problem in the docs, but you&amp;rsquo;re not sure how to fix it yourself, please create an issue in the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io/issues">Project Tetra repo&lt;/a>. You can also create an issue about a specific page by clicking the &lt;strong>Create Issue&lt;/strong> button in the top right hand corner of the page.&lt;/p>
 &lt;h2 id="useful-resources">Useful resources&lt;/h2>
 &lt;ul>
 &lt;li>[Docsy user guide](wherever it goes): All about Docsy, including how it manages navigation, look and feel, and multi-language support.&lt;/li>
