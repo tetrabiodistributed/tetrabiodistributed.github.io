@@ -1,71 +1,165 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project Tetra – How-To Guides</title><link>https://tetrabiodistributed.github.io/docs/how-to-guides/</link><description>Recent content in How-To Guides on Project Tetra</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://tetrabiodistributed.github.io/docs/how-to-guides/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Contribution Guidelines</title><link>https://tetrabiodistributed.github.io/docs/how-to-guides/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/docs/how-to-guides/contribution-guidelines/</guid><description>
+&lt;div class="paragraph">
 &lt;div class="pageinfo pageinfo-primary">
-&lt;p>These guidelines assume that you&amp;rsquo;re familiar with the GitHub workflow.&lt;/p>
+&lt;div class="paragraph">
+&lt;p>These guidelines assume that you&amp;#8217;re familiar with the GitHub workflow.&lt;/p>
 &lt;/div>
-&lt;h2 id="how-to-contribute">How to Contribute&lt;/h2>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_how_to_contribute">&lt;a class="anchor" href="#_how_to_contribute">&lt;/a>&lt;a class="link" href="#_how_to_contribute">How to Contribute&lt;/a>&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
 &lt;p>We use &lt;a href="https://gohugo.io/">Hugo&lt;/a> to format and generate our website, the
 &lt;a href="https://github.com/google/docsy">Docsy&lt;/a> theme for styling and site structure,
 and &lt;a href="https://github.com/peaceiris/actions-gh-pages">GitHub Actions for GitHub Pages&lt;/a> to manage the deployment of the site.
 Hugo is an open-source static site generator that provides us with templates,
 content organisation in a standard directory structure, and a website generation
 engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps them up into a website.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
 &lt;p>All submissions, including submissions by project members, require review. We
 use GitHub pull requests for this purpose. Consult
 &lt;a href="https://help.github.com/articles/about-pull-requests/">GitHub Help&lt;/a> for more
 information on using pull requests.&lt;/p>
-&lt;h2 id="how-to-write-good-documentation">How to write good documentation&lt;/h2>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_how_to_write_good_documentation">&lt;a class="anchor" href="#_how_to_write_good_documentation">&lt;/a>&lt;a class="link" href="#_how_to_write_good_documentation">How to write good documentation&lt;/a>&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
 &lt;p>There are four types of documentation: &lt;a href="https://documentation.divio.com/tutorials">Tutorials&lt;/a>, &lt;a href="https://documentation.divio.com/how-to-guides/">How-To Guides&lt;/a>, &lt;a href="https://documentation.divio.com/reference/">References&lt;/a>, and &lt;a href="https://documentation.divio.com/explanation/#">Explanations&lt;/a>.
 Consult the &lt;a href="https://documentation.divio.com/">The Documentation System&lt;/a> for:&lt;/p>
+&lt;/div>
+&lt;div class="ulist">
 &lt;ul>
-&lt;li>&lt;a href="https://documentation.divio.com/tutorials/#how-to-write-good-tutorials">How to write good tutorials&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://documentation.divio.com/how-to-guides/#how-to-write-good-how-to-guides">How to write good how-to guides&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://documentation.divio.com/reference/#how-to-write-good-reference-guides">How to write good reference guides&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://documentation.divio.com/explanation/#how-to-write-good-explanation">How to write good explanation&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="updating-the-site">Updating the site&lt;/h2>
-&lt;p>Here&amp;rsquo;s a quick guide to updating the site:&lt;/p>
-&lt;ol>
-&lt;li>Fork the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io">Project Tetra repo&lt;/a> on GitHub.&lt;/li>
-&lt;li>Make your changes and create a pull request (PR).&lt;/li>
-&lt;li>If you&amp;rsquo;re not yet ready for a review, add &amp;ldquo;WIP&amp;rdquo; to the PR name to indicate
-it&amp;rsquo;s a work in progress.&lt;/li>
-&lt;li>Continue updating your doc and pushing your changes until you&amp;rsquo;re happy with
-the content.&lt;/li>
-&lt;li>When you&amp;rsquo;re ready for a review, add a comment to the PR, and remove any
-&amp;ldquo;WIP&amp;rdquo; markers.&lt;/li>
-&lt;/ol>
-&lt;h2 id="updating-a-single-page">Updating a single page&lt;/h2>
-&lt;p>If you&amp;rsquo;ve just spotted something you&amp;rsquo;d like to change while using the docs, Docsy has a shortcut for you:&lt;/p>
-&lt;ol>
-&lt;li>Click &lt;strong>Edit this page&lt;/strong> in the top right hand corner of the page.&lt;/li>
-&lt;li>If you don&amp;rsquo;t already have an up to date fork of the project repo, you are prompted to get one - click &lt;strong>Fork this repository and propose changes&lt;/strong> or &lt;strong>Update your Fork&lt;/strong> to get an up to date version of the project to edit. The appropriate page in your fork is displayed in edit mode.&lt;/li>
-&lt;li>Follow the rest of the &lt;a href="#updating-the-site">Updating the site&lt;/a> process to propose your changes.&lt;/li>
-&lt;/ol>
-&lt;h2 id="previewing-your-changes">Previewing your changes&lt;/h2>
-&lt;p>If you want to preview your changes as you work, you&amp;rsquo;ll need to run your own local Hugo server:&lt;/p>
-&lt;ol>
 &lt;li>
-&lt;p>Follow the instructions in &lt;a href="https://gohugo.io/getting-started/installing/">Getting started&lt;/a> to install Hugo and any other tools you need. You&amp;rsquo;ll need at least &lt;strong>Hugo version 0.68.3&lt;/strong>.
-If you install from the &lt;a href="https://github.com/gohugoio/hugo/releases">release page&lt;/a>,
-make sure you download the &lt;code>_extended&lt;/code> version which supports SCSS.&lt;/p>
+&lt;p>&lt;a href="https://documentation.divio.com/tutorials/#how-to-write-good-tutorials">How to write good tutorials&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Fork the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io">Project Tetra repo&lt;/a> into your own project, then create a local copy using &lt;code>git clone&lt;/code>. Don’t forget to use &lt;code>--recurse-submodules&lt;/code> or you won’t pull down some of the code you need to generate a working site.&lt;/p>
-&lt;pre>&lt;code>git clone --recurse-submodules --depth 1 https://github.com/&amp;lt;your_github_username&amp;gt;/tetrabiodistributed.github.io.git
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;p>&lt;a href="https://documentation.divio.com/how-to-guides/#how-to-write-good-how-to-guides">How to write good how-to guides&lt;/a>&lt;/p>
+&lt;/li>
 &lt;li>
-&lt;p>Run &lt;code>hugo server&lt;/code> in the site root directory. By default your site will be available at &lt;code>http://localhost:1313&lt;/code>. Now that you&amp;rsquo;re serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.&lt;/p>
-&lt;pre>&lt;code>hugo server
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;p>&lt;a href="https://documentation.divio.com/reference/#how-to-write-good-reference-guides">How to write good reference guides&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://documentation.divio.com/explanation/#how-to-write-good-explanation">How to write good explanation&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_updating_the_site">&lt;a class="anchor" href="#_updating_the_site">&lt;/a>&lt;a class="link" href="#_updating_the_site">Updating the site&lt;/a>&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>Here&amp;#8217;s a quick guide to updating the site:&lt;/p>
+&lt;/div>
+&lt;div class="olist arabic">
+&lt;ol class="arabic">
+&lt;li>
+&lt;p>Fork the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io">Project Tetra repo&lt;/a> on GitHub.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Make your changes and create a pull request (PR).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If you&amp;#8217;re not yet ready for a review, add "WIP" to the PR name to indicate
+it&amp;#8217;s a work in progress.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Continue updating your doc and pushing your changes until you&amp;#8217;re happy with
+the content.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>When you&amp;#8217;re ready for a review, add a comment to the PR, and remove any
+"WIP" markers.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_updating_a_single_page">&lt;a class="anchor" href="#_updating_a_single_page">&lt;/a>&lt;a class="link" href="#_updating_a_single_page">Updating a single page&lt;/a>&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>If you&amp;#8217;ve just spotted something you&amp;#8217;d like to change while using the docs, Docsy has a shortcut for you:&lt;/p>
+&lt;/div>
+&lt;div class="olist arabic">
+&lt;ol class="arabic">
+&lt;li>
+&lt;p>Click &lt;strong>Edit this page&lt;/strong> in the top right hand corner of the page.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If you don&amp;#8217;t already have an up to date fork of the project repo, you are prompted to get one - click &lt;strong>Fork this repository and propose changes&lt;/strong> or &lt;strong>Update your Fork&lt;/strong> to get an up to date version of the project to edit. The appropriate page in your fork is displayed in edit mode.&lt;/p>
+&lt;/li>
 &lt;li>
 &lt;p>Follow the rest of the &lt;a href="#updating-the-site">Updating the site&lt;/a> process to propose your changes.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="creating-an-issue">Creating an issue&lt;/h2>
-&lt;p>If you&amp;rsquo;ve found a problem in the docs, but you&amp;rsquo;re not sure how to fix it yourself, please create an issue in the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io/issues">Project Tetra repo&lt;/a>. You can also create an issue about a specific page by clicking the &lt;strong>Create Issue&lt;/strong> button in the top right hand corner of the page.&lt;/p>
-&lt;h2 id="useful-resources">Useful resources&lt;/h2>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_previewing_your_changes">&lt;a class="anchor" href="#_previewing_your_changes">&lt;/a>&lt;a class="link" href="#_previewing_your_changes">Previewing your changes&lt;/a>&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>If you want to preview your changes as you work, you&amp;#8217;ll need to run your own local Hugo server:&lt;/p>
+&lt;/div>
+&lt;div class="olist arabic">
+&lt;ol class="arabic">
+&lt;li>
+&lt;p>Follow the instructions in &lt;a href="https://gohugo.io/getting-started/installing/">Getting started&lt;/a> to install Hugo and any other tools you need. You&amp;#8217;ll need at least &lt;strong>Hugo version 0.68.3&lt;/strong>.
+If you install from the &lt;a href="https://github.com/gohugoio/hugo/releases">release page&lt;/a>,
+make sure you download the &lt;code>_extended&lt;/code> version which supports SCSS.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fork the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io">Project Tetra repo&lt;/a> into your own project, then create a local copy using &lt;code>git clone&lt;/code>. Don&amp;#8217;t forget to use &lt;code>--recurse-submodules&lt;/code> or you won&amp;#8217;t pull down some of the code you need to generate a working site.&lt;/p>
+&lt;div class="listingblock">
+&lt;div class="content">
+&lt;pre> git clone --recurse-submodules --depth 1 https://github.com/&amp;lt;your_github_username&amp;gt;/tetrabiodistributed.github.io.git&lt;/pre>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>Run &lt;code>hugo server&lt;/code> in the site root directory. By default your site will be available at &lt;code>http://localhost:1313&lt;/code>. Now that you&amp;#8217;re serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.&lt;/p>
+&lt;div class="listingblock">
+&lt;div class="content">
+&lt;pre> hugo server&lt;/pre>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>Follow the rest of the &lt;a href="#updating-the-site">Updating the site&lt;/a> process to propose your changes.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_creating_an_issue">&lt;a class="anchor" href="#_creating_an_issue">&lt;/a>&lt;a class="link" href="#_creating_an_issue">Creating an issue&lt;/a>&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>If you&amp;#8217;ve found a problem in the docs, but you&amp;#8217;re not sure how to fix it yourself, please create an issue in the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io/issues">Project Tetra repo&lt;/a>. You can also create an issue about a specific page by clicking the &lt;strong>Create Issue&lt;/strong> button in the top right hand corner of the page.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_useful_resources">&lt;a class="anchor" href="#_useful_resources">&lt;/a>&lt;a class="link" href="#_useful_resources">Useful resources&lt;/a>&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="ulist">
 &lt;ul>
-&lt;li>[Docsy user guide](wherever it goes): All about Docsy, including how it manages navigation, look and feel, and multi-language support.&lt;/li>
-&lt;li>&lt;a href="https://gohugo.io/documentation/">Hugo documentation&lt;/a>: Comprehensive reference for Hugo.&lt;/li>
-&lt;li>&lt;a href="https://guides.github.com/activities/hello-world/">Github Hello World!&lt;/a>: A basic introduction to GitHub concepts and workflow.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>
+&lt;p>link:wherever it goes[Docsy user guide]: All about Docsy, including how it manages navigation, look and feel, and multi-language support.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://gohugo.io/documentation/">Hugo documentation&lt;/a>: Comprehensive reference for Hugo.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://guides.github.com/activities/hello-world/">Github Hello World!&lt;/a>: A basic introduction to GitHub concepts and workflow.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
