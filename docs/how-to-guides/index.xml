@@ -107,12 +107,17 @@ the content.&lt;/p>
 &lt;div class="paragraph">
 &lt;p>If you want to preview your changes as you work, you&amp;#8217;ll need to run your own local Hugo server:&lt;/p>
 &lt;/div>
+&lt;div class="sect2">
+&lt;h3 id="_option_1_using_hugo_asciidoctor_recommended_for_linux_macos_users">&lt;a class="anchor" href="#_option_1_using_hugo_asciidoctor_recommended_for_linux_macos_users">&lt;/a>&lt;a class="link" href="#_option_1_using_hugo_asciidoctor_recommended_for_linux_macos_users">Option 1: Using Hugo + Asciidoctor (Recommended for Linux &amp;amp; MacOS users)&lt;/a>&lt;/h3>
 &lt;div class="olist arabic">
 &lt;ol class="arabic">
 &lt;li>
 &lt;p>Follow the instructions in &lt;a href="https://gohugo.io/getting-started/installing/">Getting started&lt;/a> to install Hugo and any other tools you need. You&amp;#8217;ll need at least &lt;strong>Hugo version 0.68.3&lt;/strong>.
 If you install from the &lt;a href="https://github.com/gohugoio/hugo/releases">release page&lt;/a>,
 make sure you download the &lt;code>_extended&lt;/code> version which supports SCSS.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You will also need to install &lt;a href="https://asciidoctor.org/">Asciidoctor&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Fork the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io">Project Tetra repo&lt;/a> into your own project, then create a local copy using &lt;code>git clone&lt;/code>. Don&amp;#8217;t forget to use &lt;code>--recurse-submodules&lt;/code> or you won&amp;#8217;t pull down some of the code you need to generate a working site.&lt;/p>
@@ -123,17 +128,44 @@ make sure you download the &lt;code>_extended&lt;/code> version which supports S
 &lt;/div>
 &lt;/li>
 &lt;li>
-&lt;p>Run &lt;code>hugo server&lt;/code> in the site root directory. By default your site will be available at &lt;code>http://localhost:1313&lt;/code>. Now that you&amp;#8217;re serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.&lt;/p>
+&lt;p>Run &lt;code>serve.sh&lt;/code> script in the site root directory. By default your site will be available at &lt;code>http://localhost:1313&lt;/code>. Now that you&amp;#8217;re serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.&lt;/p>
 &lt;div class="listingblock">
 &lt;div class="content">
-&lt;pre> hugo server&lt;/pre>
+&lt;pre> sh serve.sh&lt;/pre>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Note: You will also need Graphviz (2.38.0 recommended) and &lt;a href="https://plantuml.com/download">Plantuml&lt;/a> installed in order to be able to render UML diagrams.&lt;/p>
+&lt;/div>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect2">
+&lt;h3 id="_option_2_using_docker_recommended_for_windows_users">&lt;a class="anchor" href="#_option_2_using_docker_recommended_for_windows_users">&lt;/a>&lt;a class="link" href="#_option_2_using_docker_recommended_for_windows_users">Option 2: Using Docker (Recommended for Windows users)&lt;/a>&lt;/h3>
+&lt;div class="olist arabic">
+&lt;ol class="arabic">
+&lt;li>
+&lt;p>Install &lt;a href="https://www.docker.com/">docker&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fork the &lt;a href="https://github.com/tetrabiodistributed/tetrabiodistributed.github.io">Project Tetra repo&lt;/a> into your own project, then create a local copy using &lt;code>git clone&lt;/code>. Don&amp;#8217;t forget to use &lt;code>--recurse-submodules&lt;/code> or you won&amp;#8217;t pull down some of the code you need to generate a working site.&lt;/p>
+&lt;div class="listingblock">
+&lt;div class="content">
+&lt;pre> git clone --recurse-submodules --depth 1 https://github.com/&amp;lt;your_github_username&amp;gt;/tetrabiodistributed.github.io.git&lt;/pre>
 &lt;/div>
 &lt;/div>
 &lt;/li>
 &lt;li>
-&lt;p>Follow the rest of the &lt;a href="#updating-the-site">Updating the site&lt;/a> process to propose your changes.&lt;/p>
+&lt;p>Run the following command in the site root directory. By default your site will be available at &lt;code>http://localhost:1313&lt;/code>. Now that you&amp;#8217;re serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.&lt;/p>
+&lt;div class="listingblock">
+&lt;div class="content">
+&lt;pre> docker run --rm --volume $PWD:/src -p 1313:1313 -w "/src" bwklein/hugo-asciidoctor sh serve.sh&lt;/pre>
+&lt;/div>
+&lt;/div>
 &lt;/li>
 &lt;/ol>
+&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
