@@ -183,7 +183,7 @@ make sure you download the &lt;code>_extended&lt;/code> version which supports S
 &lt;div class="ulist">
 &lt;ul>
 &lt;li>
-&lt;p>link:wherever it goes[Docsy user guide]: All about Docsy, including how it manages navigation, look and feel, and multi-language support.&lt;/p>
+&lt;p>&lt;a href="https://www.docsy.dev/docs/">Docsy user guide&lt;/a>: All about Docsy, including how it manages navigation, look and feel, and multi-language support.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://gohugo.io/documentation/">Hugo documentation&lt;/a>: Comprehensive reference for Hugo.&lt;/p>
