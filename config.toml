@@ -90,6 +90,9 @@ contentDir = "content/es"
 github_branch = "dev"
 copyright = "The Docsy Authors"
 privacy_policy = "https://policies.google.com/privacy"
+color_theme = "custom"
+themeVariant = "red"
+email = "tetrabiodistributed@outlook.com"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -161,12 +164,12 @@ enable = false
 [params.links]
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
-	name = "GitHub"
-	url = "https://github.com/tetrabiodistributed/project-tetra-docs/"
-	icon = "fab fa-github"
+    name = "GitHub"
+    url = "https://github.com/tetrabiodistributed/project-tetra-docs/"
+    icon = "fab fa-github"
         desc = "Development takes place here!"
 [[params.links.developer]]
-	name = "Slack"
-	url = "https://app.slack.com/client/TUTSYURT3/C0103QJMA84"
-	icon = "fab fa-slack"
+    name = "Slack"
+    url = "https://app.slack.com/client/TUTSYURT3/C0103QJMA84"
+    icon = "fab fa-slack"
         desc = "Chat with other project developers"
